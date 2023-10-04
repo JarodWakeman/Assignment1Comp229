@@ -1,0 +1,35 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+<!--Jarod Wakeman, 301321980 Assignment 1, 2023 oct 4-->
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    <h2>Contact Me</h2>
+    </div>
+    <h3>Jarod Wakeman</h3>
+    <h3>Email: jarodwakeman@gmail.com</h3>
+    <h3>Phone: 613-883-3230</h3>
+
+    <input type="text" name="firstname" id="firstname">
+    <label for="firstname">First Name</label><br>
+    <input type="text" name="lastname" id="lastname">
+    <label for="lastname">Last Name</label><br>
+    <input type="number" name="phone" id="phone">
+    <label for="phone">Phone Number</label><br>
+    <input type="email" name="email" id="email">
+    <label for="email">Email</label><br>
+    <input type="text" name="message" id="message">
+    <label for="message">Message</label><br>
+    <input type="submit" name="submit" id="submit">
+    <label for="submit">submit</label>
+    </main>
+    
+    <!--bottom nav-->
+    
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
